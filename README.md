@@ -1,4 +1,4 @@
-# Allen Auto Video Speed 2x
+# Allen Auto Video Speed 2x [Project Made Entirely Using Gemini 2.5]
 
 A Chrome extension that automatically sets Allen.in videos to 2x speed and adds a floating toggle button to control it. Meant to save time and sanity when watching lectures.
 
