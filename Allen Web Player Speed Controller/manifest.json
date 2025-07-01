@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Allen Auto Video Speed 2x",
+    "version": "1.0",
+    "description": "Automatically forces Allen.in videos to 2x speed with an on-page toggle button.",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "host_permissions": [
+        "https://allen.in/videoPlayer*"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://allen.in/videoPlayer*"],
+            "js": ["content.js"],
+            "run_at": "document_idle",
+            "all_frames": true
+        }
+    ]
+}
